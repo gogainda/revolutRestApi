@@ -40,4 +40,13 @@ public class TransferRequest {
     public void setAmount(long amount) {
         this.amount = amount;
     }
+
+    @Override
+    public String toString() {
+        return "TransferRequest{" +
+                "fromUser='" + fromUser + '\'' +
+                ", toUser='" + toUser + '\'' +
+                ", amount=" + amount +
+                '}';
+    }
 }
